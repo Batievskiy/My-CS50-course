@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: sort1 takes less time on sorted.txt than sort3, less time on smaller lists compared to sort3, and more time on bigger lists compare to sort2
+
+sort2 uses: merge sort
+
+How do you know?: sort2 takes less time than the sort1 and sort3 to sort randomized.txt, sorted.txt and reversed.txt despite on size of a list.
+
+sort3 uses: selection sort
+
+How do you know?: sort3 algorithm execution time is almost the same - to sort randomized.txt, sorted.txt, and reversed.txt - that indicates that the sort3 takes the same number of steps
