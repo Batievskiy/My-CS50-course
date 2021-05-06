@@ -23,7 +23,6 @@ int main(void)
     print_grade(index);
 }
 
-
 // let's count letters in string text
 // for each i until < length of text
 //  1. check is it character?
