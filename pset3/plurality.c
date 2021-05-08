@@ -75,7 +75,7 @@ int main(int argc, string argv[])
 
     int voters_count = get_int("Number of voters: ");
 
-    // here we ask user to vote for candidates if candidates[].names
+    // here we ask user to vote for candidates if candidates[].name
     // for each i until < voters_count
     // 1. prompt for name input
     // 2. compare name with function bool vote(string name)
@@ -101,9 +101,9 @@ int main(int argc, string argv[])
 
 }
 
-// it's purpose to compare each name in array of candidates[].names
+// it's purpose to compare each name in array of candidates[].name
 // for each i until < candidate_count
-// 1. compare i name in candidates[].names
+// 1. compare i name in candidates[].name
 //  1.1 if its equals - return true and increase vote counter by 1
 //  1.2 if its not - repeat step 1.1
 // 2. when done whole array - return false
