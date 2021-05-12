@@ -2,6 +2,8 @@
 #include <stdlib.h> // atof - convert a string to a float
 #include <stdint.h> // for using uint8_t and int16_t - by the way this hasn't been told on the lecture
 
+// This is my explanation of each line of code here for Dummies like Me.)
+
 // here we wand to modify input.wav volume
 // by multiplying each byte of the file to factor
 // (2.0 - doubles the volume)
