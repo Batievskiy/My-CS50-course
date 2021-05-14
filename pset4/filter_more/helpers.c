@@ -112,7 +112,7 @@ RGBTRIPLE getPixelBlurred(int originRow, int originCol, int height, int width, R
      * let's visualize this 2d array (matrix):
         [row - 1][col - 1]    [row - 1][  col  ]    [row - 1][col + 1]
 
-        [  row  ][col - 1]    [  row  ][  col  ]    [row    ][col + 1]
+        [  row  ][col - 1]    [  row  ][  col  ]    [  row  ][col + 1]
 
         [row + 1][col - 1]    [row + 1][  col  ]    [row + 1][col + 1]
     */
@@ -205,7 +205,7 @@ RGBTRIPLE getEdgePixel(int originRow, int originCol, int height, int width, RGBT
      * let's visualize this 2d array (matrix):
         [row - 1][col - 1]    [row - 1][  col  ]    [row - 1][col + 1]
 
-        [  row  ][col - 1]    [  row  ][  col  ]    [row    ][col + 1]
+        [  row  ][col - 1]    [  row  ][  col  ]    [  row  ][col + 1]
 
         [row + 1][col - 1]    [row + 1][  col  ]    [row + 1][col + 1]
     */
