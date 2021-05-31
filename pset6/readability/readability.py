@@ -1,5 +1,4 @@
 # let's make readability on pyton
-import string
 import re
 
 # this is detailed explanation for beginners in programing like me:)
@@ -23,7 +22,7 @@ def main():
 
     # and count all sentences in our text using re.findall(pattern, string)
     # all characters that define end of the sentence (. ! ?) patterns to find
-    countSentences = len(re.findall(r'[.!?]+', someText))
+    countSentences = len(re.findall('[.!?]', someText))
     
     # calculate Coleman Liau's Index
     colemanLiauIndex = calculateColemanLiauIndex(countLetters, countWords, countSentences)
