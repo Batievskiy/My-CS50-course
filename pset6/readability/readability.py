@@ -22,11 +22,13 @@ def main():
 
     # and count all sentences in our text using re.findall(pattern, string)
     # all characters that define end of the sentence (. ! ?) patterns to find
-    countSentences = len(re.findall('[.!?]', someText))
-    
+    # `+` - means one or more repeats (!!!, ???, ...)
+    # `r` - means that the string is to be treated as a raw string
+    countSentences = len(re.findall(r'[.!?]+', someText))
+
     # calculate Coleman Liau's Index
     colemanLiauIndex = calculateColemanLiauIndex(countLetters, countWords, countSentences)
-    
+
     # and print it out
     printGrade(colemanLiauIndex)
 
