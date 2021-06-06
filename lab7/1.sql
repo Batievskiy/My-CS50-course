@@ -7,7 +7,7 @@ for the name of each song.
 This is detailed description for beginners in programing like me:
 
 SELECT column `name`
-FROM database `songs`
+FROM table `songs`
 
 ---< Dumbest way is to write queries - in ONE line! >---
 
