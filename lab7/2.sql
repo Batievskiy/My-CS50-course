@@ -7,7 +7,7 @@ for the name of each song.
 This is detailed description for beginners in programing like me:
 
 SELECT column `name`
-FROM database `songs` and
+FROM table `songs` and
 ORDER BY - Sorts the result set in ascending(ASC) or descending(DESC) order
 by column `tempo` in ASC - ascending order
 
